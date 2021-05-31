@@ -3,9 +3,6 @@
 
 name: Node.js CI
 
-env:
-  DISPLAY: ':0'
-
 on:
   push:
     branches: [ issue/electron-builder-5907 ]
