@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test-mocha": "xvfb-maybe electron-mocha --no-sandbox test/test.js"
+    "test-main": "xvfb-maybe electron-mocha --no-sandbox test/test.js",
+    "test-renderer": "xvfb-maybe electron-mocha --renderer --no-sandbox test/test.js"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
