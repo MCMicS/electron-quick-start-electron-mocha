@@ -20,7 +20,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^13.0.1",
-    "electron-mocha": "^8.1.1",
+    "electron-mocha": "^10.0.0",
     "xvfb-maybe": "^0.2.1"
   }
 }
