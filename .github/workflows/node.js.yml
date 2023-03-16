@@ -5,7 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ issue/electron-builder-5907 ]
+    branches:
+      - '*'
+      - '*/*'
 
 jobs:
   test:
